@@ -284,7 +284,7 @@ import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
 
 // Use environment variable for backend URL, fallback to localhost for local development
-const ENDPOINT = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+const ENDPOINT = "https://lets-chat-dude-1.onrender.com";
 var socket, selectedChatCompare;
 
 // Set axios default baseURL to ENDPOINT
