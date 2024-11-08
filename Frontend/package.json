@@ -30,7 +30,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "http-server ./build",
+    "start": "serve -s build",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
