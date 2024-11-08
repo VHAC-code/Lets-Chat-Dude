@@ -1,0 +1,42 @@
+# Ignore node_modules in both frontend and backend
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Ignore build and log files
+Frontend/build/
+Backend/build/
+*.log
+*.env
+
+# Ignore temporary files and system-specific files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Ignore environment files
+Frontend/.env
+Backend/.env
+
+# Ignore cache and output files in both frontend and backend
+Frontend/.next/
+Frontend/out/
+Frontend/.cache/
+Frontend/dist/
+Backend/.cache/
+Backend/dist/
+Frontend/.parcel-cache/
+
+# Ignore coverage reports
+Frontend/coverage/
+Backend/coverage/
+*.lcov
+
+# Ignore lock files (optional, but commonly used)
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore package-lock.json files if you prefer not to track them
+package-lock.json
+Frontend/package-lock.json
+Backend/package-lock.json
